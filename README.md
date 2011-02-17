@@ -1,3 +1,11 @@
+
+EC2 Commands
+===
+
+  knife ec2 server create --image ami-4b4ba522 --ssh-user ubuntu --flavor t1.micro --availability-zone us-east-1c --ssh-key chef --template-file bootstrap/ubuntu10.04-192.erb
+
+
+
 Overview
 ========
 
